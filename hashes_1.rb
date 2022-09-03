@@ -109,3 +109,29 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+emails_to_send = [
+  {
+    sender_name: "River Porter",
+    sender_email: "river@gmail.com",
+    time_stamp: "12:15",
+    subject: "Trip Itinerary",
+    body: "Attached is our trip initerary"
+  },
+  {
+    sender_name: "Wicklow Porter",
+    sender_email: "wicklow@gmail.com",
+    time_stamp: "15:45",
+    subject: "Directions",
+    body: "Here are the directions to my house"
+  },
+  {
+    sender_name: "Dean Kelly",
+    sender_email: "dean@gmail.com",
+    time_stamp: "18:30",
+    subject: "Baby Shower",
+    body: "The baby shower is schedule for next Saturday"
+  }
+]
+
+p emails_to_send
